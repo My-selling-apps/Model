@@ -222,7 +222,7 @@ from django.conf import settings
 from django.views.decorators.csrf import csrf_exempt
 
 # Mock class labels
-class_labels = {0: "Laptop", 1: "Smartphone"}
+class_labels = {0: "Smartphone", 1: "Laptop"}
 
 def index(request):
     return render(request, 'index.html', {'title': 'Image Classifier'})
